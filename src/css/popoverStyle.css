@@ -1,0 +1,84 @@
+.popover-box {
+  max-width: 1000px;
+  min-width: 600px;
+  width: 90%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: violet;
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.popover-list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.popover-item {
+  max-width: 200px;
+  min-width: 100px;
+  max-height: 200px;
+  min-height: 100px;
+  margin: 0 10px;
+}
+
+.popover-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 45%;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.popover-image:hover {
+  background-color: gold;
+}
+
+.popover-message {
+  background-color: white;
+  width: 40%;
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 20px;
+  position: absolute;
+  display: none;
+}
+
+.popover-message-heading {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.popover-message-paragraph {
+  padding: 5px 5px 25px 5px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.popover-message-paragraph::after {
+  content: "";
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 20px);
+  top: 40px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.active {
+  display: block;
+}
+
+.popover-food {
+  margin-left: 5px;
+  cursor: default;
+}

@@ -20,19 +20,7 @@
       "no-alert": "off",
       "no-unused-vars": "off",
       "import/extensions": ["error", "ignorePackages"],
-      "no-mixed-operators": [
-        "error",
-        {
-          "groups": [
-            ["+", "*", "/", "%"],
-            ["&", "|", "^", "~", "<<", ">>", ">>>"],
-            ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
-            ["&&", "||"],
-            ["in", "instanceof"]
-          ],
-          "allowSamePrecedence": true
-        }
-      ],
+      "no-mixed-operators": "off",
       "max-len": ["error", { "code": 500 }]
     }
   }
