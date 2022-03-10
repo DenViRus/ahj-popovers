@@ -1,5 +1,4 @@
-# Popovers
----
+# Popovers  [![Build status](https://ci.appveyor.com/api/projects/status/a6c575vnxh7yddbh?svg=true)](https://ci.appveyor.com/project/DenViRus/ahj-popovers)  
 
 #### Легенда
 
